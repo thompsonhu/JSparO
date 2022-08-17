@@ -1,0 +1,15 @@
+Package: JSparO
+Title: Joint Sparse Optimization via Proximal Gradient Method for Cell Fate Conversion
+Version: 1.5.0
+Authors@R: c(person("Xinlin", "Hu", role = c("aut", "cre"), email = "thompson-xinlin.hu@connect.polyu.hk"),
+    person("Yaohua", "Hu", role = c("cph", "aut"), email = "mayhhu@szu.edu.cn"))
+Author: Xinlin Hu [aut, cre], 
+    Yaohua Hu [cph, aut]
+Description: Implementation of joint sparse optimization (JSparO) to infer the gene regulatory network for cell fate conversion. The proximal gradient method is implemented to solve different low-order regularization models for JSparO.
+Maintainer: Xinlin Hu <thompson-xinlin.hu@connect.polyu.hk>
+License: GPL (>=3)
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: pracma
